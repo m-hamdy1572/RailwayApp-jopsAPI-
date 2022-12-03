@@ -2,10 +2,10 @@
   "name": "jobs-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +23,7 @@
     "mongoose": "^6.7.3",
     "rate-limiter": "^0.2.0",
     "sprintf-js": "^1.1.2",
-    "swagger-ui-express": "^4.1.6",
+    "swagger-ui-express": "^4.6.0",
     "xss-clean": "^0.1.1",
     "yamljs": "^0.3.0"
   },
